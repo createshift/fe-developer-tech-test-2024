@@ -1,0 +1,57 @@
+@import './reset.css';
+
+:where(html) {
+  /* Fluid Typography  */
+  --step-0: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+  --step-1: clamp(1.2rem, 1.11rem + 0.47vw, 1.67rem);
+  --step-2: clamp(1.44rem, 1.28rem + 0.78vw, 2.22rem);
+  --step-3: clamp(1.73rem, 1.48rem + 1.23vw, 2.96rem);
+  --step-4: clamp(2.07rem, 1.7rem + 1.87vw, 3.95rem);
+  --step-5: clamp(2.49rem, 1.93rem + 2.77vw, 5.26rem);
+  --step--2: clamp(0.69rem, 0.69rem + 0.01vw, 0.7rem);
+  --step--1: clamp(0.83rem, 0.81rem + 0.1vw, 0.94rem);
+
+  /* Fluid Spacing */
+  --space-3xs: clamp(0.25rem, 0.24rem + 0.06vw, 0.31rem);
+  --space-2xs: clamp(0.5rem, 0.48rem + 0.13vw, 0.63rem);
+  --space-xs: clamp(0.75rem, 0.71rem + 0.19vw, 0.94rem);
+  --space-s: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+  --space-m: clamp(1.5rem, 1.43rem + 0.38vw, 1.88rem);
+  --space-l: clamp(2rem, 1.9rem + 0.5vw, 2.5rem);
+  --space-xl: clamp(3rem, 2.85rem + 0.75vw, 3.75rem);
+  --space-2xl: clamp(4rem, 3.8rem + 1vw, 5rem);
+  --space-3xl: clamp(6rem, 5.7rem + 1.5vw, 7.5rem);
+  --space-4xl: clamp(8rem, 7.6rem + 2vw, 10rem);
+
+  /* Line Heights */
+  --leading-normal: 1.5;
+  --leading-tight: 1.25;
+
+  /* Font Weights */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Color */
+  --grey-dark: #183b5c;
+  --grey-light: #f9fafb;
+  --blue-base: #25a7d9;
+  --turqoise-base: #23c3b3;
+  --green-base: #59d146;
+  --purple-base: #9b60e9;
+  --pink-base: #e95eac;
+
+  /* Border Radius */
+  --border-radius: 0.5rem;
+}
+
+body {
+  color: var(--grey-dark);
+  font-size: var(--step-0);
+  font-family: system-ui, sans-serif;
+  line-height: var(--leading-normal);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
