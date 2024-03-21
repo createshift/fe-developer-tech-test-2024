@@ -1,6 +1,6 @@
-# ProdPad UI Developer Pair Programming Exercise
+# ProdPad FE Developer Pair Programming Exercise
 
-Hey! Welcome to the ProdPad UI developer pair programming exercise.
+Hey! Welcome to the ProdPad FE Developer pair programming exercise.
 
 In this task, we will refactor and improve a simple Vue application — adding some styles based on an existing design system, constructing some new components to help break up the code, and improving the overall accessibility and semantics of the project's HTML.
 
