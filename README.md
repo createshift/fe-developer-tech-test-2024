@@ -11,7 +11,7 @@ Throughout this exercise, we will ask you to work through a list of tasks, but d
 1. Clone this repository, navigate into it.
 2. Install the project's depenancies with `npm install`
 3. Run `npm run dev` to start Vite in development mode
-4. Head to `http://localhost:3000/` 🚀
+4. Head to `http://localhost:5173/` 🚀
 
 ## Task list
 
@@ -19,7 +19,7 @@ Throughout this exercise, we will ask you to work through a list of tasks, but d
 - Can you break out the `.roadmap-card` HTML into it's own Vue component?
 - Using the CSS-based design system defined in `css/global.css` can you add some styles to the newly created roadmap card component?
 - Can you add some code to render each card's objectives, as displayed in the design?
-- Can you add some code to allow the user to update the roadmap title?
+- Can you utilize the Vuex store to allow the user to individually update the titles of each roadmap card?
 
 ## Design reference
 

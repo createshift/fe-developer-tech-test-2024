@@ -1,8 +1,11 @@
 <script setup>
-import roadmapData from './assets/data/roadmap';
+import { computed } from 'vue';
+import { useStore } from 'vuex'
 
-const productTitle = roadmapData.title;
-const roadmapColumns = roadmapData.columns;
+const store = useStore()
+
+const productTitle = computed(() => store.state.title);
+const roadmapColumns = computed(() => store.state.columns);
 </script>
 
 <template>
